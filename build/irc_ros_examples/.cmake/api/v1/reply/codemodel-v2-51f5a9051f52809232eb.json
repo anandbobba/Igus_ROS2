@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-dc0194e05888e4e30731.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "irc_ros_examples",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_irc_ros_examples_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_irc_ros_examples_egg-93d5fa748fe239f66ac4.json",
+					"name" : "ament_cmake_python_build_irc_ros_examples_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_irc_ros_examples::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_irc_ros_examples-5c96c363d44783a2272b.json",
+					"name" : "ament_cmake_python_symlink_irc_ros_examples",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "irc_ros_examples_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-irc_ros_examples_uninstall-22dece39379bdda176ef.json",
+					"name" : "irc_ros_examples_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pick_and_place::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pick_and_place-538233976c19e0f9f090.json",
+					"name" : "pick_and_place",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pick_and_place_vacuum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pick_and_place_vacuum-15d7e88c1b36aa3b9eee.json",
+					"name" : "pick_and_place_vacuum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1ee6c1a1704a84a2b165.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/anand/Igus/Igus_ROS2/build/irc_ros_examples",
+		"source" : "/home/anand/Igus/Igus_ROS2/irc_ros_examples"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

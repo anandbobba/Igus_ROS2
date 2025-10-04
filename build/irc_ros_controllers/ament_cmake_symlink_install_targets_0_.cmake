@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/anand/Igus/Igus_ROS2/build/irc_ros_controllers/libirc_ros_controllers.so" "TARGETS" "irc_ros_controllers" "RUNTIME_DESTINATION" "bin" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib")

@@ -16,5 +16,6 @@
         "/home/sanketnarale/rebel_ws/install/irc_ros_msgs/local/lib/python3.10/dist-packages",
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
-    ]
+    ],
+    "cmake.sourceDirectory": "/home/anand/Igus/Igus_ROS2/irc_ros_controllers"
 }

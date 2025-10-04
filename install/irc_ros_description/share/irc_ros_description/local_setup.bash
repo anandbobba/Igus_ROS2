@@ -1,0 +1,1 @@
+/home/anand/Igus/Igus_ROS2/build/irc_ros_description/ament_cmake_environment_hooks/local_setup.bash

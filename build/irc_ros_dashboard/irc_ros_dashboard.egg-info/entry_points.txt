@@ -1,0 +1,2 @@
+[console_scripts]
+cli_dashboard = irc_ros_dashboard.cli_dashboard:main

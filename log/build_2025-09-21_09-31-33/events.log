@@ -1,0 +1,49 @@
+[0.000000] (-) TimerEvent: {}
+[0.000513] (-) JobUnselected: {'identifier': 'irc_ros_bringup'}
+[0.000661] (-) JobUnselected: {'identifier': 'irc_ros_controllers'}
+[0.000826] (-) JobUnselected: {'identifier': 'irc_ros_dashboard'}
+[0.000924] (-) JobUnselected: {'identifier': 'irc_ros_description'}
+[0.000986] (-) JobUnselected: {'identifier': 'irc_ros_examples'}
+[0.001024] (-) JobUnselected: {'identifier': 'irc_ros_hardware'}
+[0.001051] (-) JobUnselected: {'identifier': 'irc_ros_moveit_config'}
+[0.001077] (-) JobUnselected: {'identifier': 'irc_ros_msgs'}
+[0.001117] (-) JobUnselected: {'identifier': 'irc_ros_navigation2'}
+[0.001190] (testtube_sorting) JobQueued: {'identifier': 'testtube_sorting', 'dependencies': OrderedDict()}
+[0.001250] (testtube_sorting) JobStarted: {'identifier': 'testtube_sorting'}
+[0.099186] (-) TimerEvent: {}
+[0.199507] (-) TimerEvent: {}
+[0.299844] (-) TimerEvent: {}
+[0.400267] (-) TimerEvent: {}
+[0.449247] (testtube_sorting) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/testtube_sorting', 'build', '--build-base', '/home/anand/Igus/Igus_ROS2/build/testtube_sorting/build', 'install', '--record', '/home/anand/Igus/Igus_ROS2/build/testtube_sorting/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/anand/Igus/Igus_ROS2/src/testtube_sorting', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LANGUAGE': 'en_IN:en', 'USER': 'anand', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/anand', 'OLDPWD': '/home/anand/Igus/Igus_ROS2', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/anand/.nvm/versions/node/v22.14.0/bin', 'NVM_INC': '/home/anand/.nvm/versions/node/v22.14.0/include/node', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3186', 'SYSTEMD_EXEC_PID': '3733', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4364', 'NVM_DIR': '/home/anand/.nvm', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/anand/rebel_ws/install:/home/anand/ros2_works/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'anand', 'JOURNAL_STREAM': '8:9884', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'anand', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/anand/.local/bin:/home/anand/.nvm/versions/node/v22.14.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Anand:@/tmp/.ICE-unix/3705,unix/Anand:/tmp/.ICE-unix/3705', 'INVOCATION_ID': '2bd666e1d0404a38978848483b9db5e4', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YFRUC3', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/anand/rebel_ws/install/myrobot_moveit_config:/home/anand/rebel_ws/install/igus_rebel_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:8ff239b8-5aea-4b91-afba-07eb3503d3bd', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/anand/Igus/Igus_ROS2/build/testtube_sorting', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/anand/Igus/Igus_ROS2/build/testtube_sorting/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anand/Igus/Igus_ROS2/install/testtube_sorting/lib/python3.10/site-packages:/home/anand/.local/lib/python3.10/site-packages:/home/anand/.local/lib/python3.10/site-packages:/home/anand/ros2_works/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/anand/rebel_ws/install/myrobot_moveit_config:/home/anand/rebel_ws/install/igus_rebel_description'}, 'shell': False}
+[0.500376] (-) TimerEvent: {}
+[0.576065] (testtube_sorting) StderrLine: {'line': b"/home/anand/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[0.576376] (testtube_sorting) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[0.600494] (-) TimerEvent: {}
+[0.627170] (testtube_sorting) StdoutLine: {'line': b'running egg_info\n'}
+[0.635469] (testtube_sorting) StdoutLine: {'line': b'writing ../../build/testtube_sorting/testtube_sorting.egg-info/PKG-INFO\n'}
+[0.635858] (testtube_sorting) StdoutLine: {'line': b'writing dependency_links to ../../build/testtube_sorting/testtube_sorting.egg-info/dependency_links.txt\n'}
+[0.635993] (testtube_sorting) StdoutLine: {'line': b'writing entry points to ../../build/testtube_sorting/testtube_sorting.egg-info/entry_points.txt\n'}
+[0.636109] (testtube_sorting) StdoutLine: {'line': b'writing requirements to ../../build/testtube_sorting/testtube_sorting.egg-info/requires.txt\n'}
+[0.636194] (testtube_sorting) StdoutLine: {'line': b'writing top-level names to ../../build/testtube_sorting/testtube_sorting.egg-info/top_level.txt\n'}
+[0.654985] (testtube_sorting) StdoutLine: {'line': b"reading manifest file '../../build/testtube_sorting/testtube_sorting.egg-info/SOURCES.txt'\n"}
+[0.655989] (testtube_sorting) StdoutLine: {'line': b"writing manifest file '../../build/testtube_sorting/testtube_sorting.egg-info/SOURCES.txt'\n"}
+[0.656136] (testtube_sorting) StdoutLine: {'line': b'running build\n'}
+[0.656180] (testtube_sorting) StdoutLine: {'line': b'running build_py\n'}
+[0.656276] (testtube_sorting) StdoutLine: {'line': b'copying testtube_sorting/__init__.py -> /home/anand/Igus/Igus_ROS2/build/testtube_sorting/build/lib/testtube_sorting\n'}
+[0.656478] (testtube_sorting) StdoutLine: {'line': b'running install\n'}
+[0.659064] (testtube_sorting) StdoutLine: {'line': b'running install_lib\n'}
+[0.667790] (testtube_sorting) StdoutLine: {'line': b'running install_data\n'}
+[0.667872] (testtube_sorting) StdoutLine: {'line': b'copying resource/testtube_sorting -> /home/anand/Igus/Igus_ROS2/install/testtube_sorting/share/ament_index/resource_index/packages\n'}
+[0.668067] (testtube_sorting) StdoutLine: {'line': b'copying package.xml -> /home/anand/Igus/Igus_ROS2/install/testtube_sorting/share/testtube_sorting\n'}
+[0.668109] (testtube_sorting) StdoutLine: {'line': b'copying launch/teach_positions.launch.py -> /home/anand/Igus/Igus_ROS2/install/testtube_sorting/share/testtube_sorting/launch\n'}
+[0.668271] (testtube_sorting) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.677911] (testtube_sorting) StdoutLine: {'line': b"removing '/home/anand/Igus/Igus_ROS2/install/testtube_sorting/lib/python3.10/site-packages/testtube_sorting-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.678033] (testtube_sorting) StdoutLine: {'line': b'Copying ../../build/testtube_sorting/testtube_sorting.egg-info to /home/anand/Igus/Igus_ROS2/install/testtube_sorting/lib/python3.10/site-packages/testtube_sorting-0.0.0-py3.10.egg-info\n'}
+[0.678348] (testtube_sorting) StdoutLine: {'line': b'running install_scripts\n'}
+[0.700641] (-) TimerEvent: {}
+[0.752834] (testtube_sorting) StdoutLine: {'line': b'Installing position_teacher script to /home/anand/Igus/Igus_ROS2/install/testtube_sorting/lib/testtube_sorting\n'}
+[0.752966] (testtube_sorting) StdoutLine: {'line': b'Installing simple_pick_place script to /home/anand/Igus/Igus_ROS2/install/testtube_sorting/lib/testtube_sorting\n'}
+[0.753025] (testtube_sorting) StdoutLine: {'line': b"writing list of installed files to '/home/anand/Igus/Igus_ROS2/build/testtube_sorting/install.log'\n"}
+[0.772389] (testtube_sorting) CommandEnded: {'returncode': 0}
+[0.779111] (testtube_sorting) JobEnded: {'identifier': 'testtube_sorting', 'rc': 0}
+[0.779626] (-) EventReactorShutdown: {}

@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from irc_ros_msgs/srv/CanModuleCommand.srv
+// generated code does not contain a copyright notice
+
+
+module irc_ros_msgs {
+  module srv {
+    module CanModuleCommand_Request_Constants {
+      const uint8 TYPE_NONE = 0;
+      const uint8 TYPE_PING = 1;
+      const uint8 TYPE_ERROR_RESET = 2;
+      const uint8 TYPE_ENABLE_MOTOR = 3;
+      const uint8 TYPE_DISABLE_MOTOR = 4;
+      const uint8 TYPE_REFERENCE = 5;
+      const uint8 TYPE_SET_POS_TO_ZERO = 6;
+    };
+    struct CanModuleCommand_Request {
+      string name;
+
+      uint8 type;
+    };
+    struct CanModuleCommand_Response {
+      boolean success;
+    };
+  };
+};

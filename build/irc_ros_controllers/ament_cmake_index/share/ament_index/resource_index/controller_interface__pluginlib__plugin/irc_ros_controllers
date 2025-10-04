@@ -1,0 +1,3 @@
+share/irc_ros_controllers/dashboard_controller.xml
+share/irc_ros_controllers/dio_controller.xml
+share/irc_ros_controllers/schmalz_ecbpmi_controller.xml

@@ -1,0 +1,6 @@
+setup.py
+irc_ros_examples/__init__.py
+irc_ros_examples.egg-info/PKG-INFO
+irc_ros_examples.egg-info/SOURCES.txt
+irc_ros_examples.egg-info/dependency_links.txt
+irc_ros_examples.egg-info/top_level.txt

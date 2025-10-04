@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from irc_ros_msgs/srv/GripperCommand.srv
+// generated code does not contain a copyright notice
+
+
+module irc_ros_msgs {
+  module srv {
+    struct GripperCommand_Request {
+      boolean grip;
+    };
+    struct GripperCommand_Response {
+      boolean gripped;
+    };
+  };
+};

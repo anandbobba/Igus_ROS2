@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from irc_ros_msgs/srv/DioCommand.srv
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module irc_ros_msgs {
+  module srv {
+    struct DioCommand_Request {
+      std_msgs::msg::Header header;
+
+      sequence<string> names;
+
+      sequence<boolean> outputs;
+    };
+    struct DioCommand_Response {
+      boolean success;
+    };
+  };
+};

@@ -1,0 +1,27 @@
+[0.623s] Invoking command in '/home/anand/Igus/Igus_ROS2/irc_ros_dashboard': CMAKE_PREFIX_PATH=/home/anand/Igus/Igus_ROS2/install/irc_ros_msgs:/home/anand/Igus/Igus_ROS2/install/irc_ros_navigation2:/home/anand/Igus/Igus_ROS2/install/irc_ros_controllers:/home/anand/Igus/Igus_ROS2/install/irc_ros_bringup:/home/anand/Igus/Igus_ROS2/install/irc_ros_hardware:/home/anand/Igus/Igus_ROS2/install/irc_ros_examples:/home/anand/Igus/Igus_ROS2/install/irc_ros_moveit_config:/home/anand/Igus/Igus_ROS2/install/irc_ros_description:/home/anand/rover_ws/install/rover_description:/home/anand/rebel_ws/install/myrobot_moveit_config:/home/anand/rebel_ws/install/igus_rebel_description LD_LIBRARY_PATH=/home/anand/Igus/Igus_ROS2/install/irc_ros_msgs/lib:/home/anand/Igus/Igus_ROS2/install/irc_ros_controllers/lib:/home/anand/Igus/Igus_ROS2/install/irc_ros_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/anand/Igus/Igus_ROS2/build/irc_ros_dashboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anand/Igus/Igus_ROS2/install/irc_ros_dashboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/irc_ros_dashboard build --build-base /home/anand/Igus/Igus_ROS2/build/irc_ros_dashboard/build install --record /home/anand/Igus/Igus_ROS2/build/irc_ros_dashboard/install.log --single-version-externally-managed install_data
+[0.731s] /home/anand/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.731s]   warnings.warn(msg)
+[0.785s] running egg_info
+[0.795s] writing ../build/irc_ros_dashboard/irc_ros_dashboard.egg-info/PKG-INFO
+[0.795s] writing dependency_links to ../build/irc_ros_dashboard/irc_ros_dashboard.egg-info/dependency_links.txt
+[0.796s] writing entry points to ../build/irc_ros_dashboard/irc_ros_dashboard.egg-info/entry_points.txt
+[0.796s] writing requirements to ../build/irc_ros_dashboard/irc_ros_dashboard.egg-info/requires.txt
+[0.796s] writing top-level names to ../build/irc_ros_dashboard/irc_ros_dashboard.egg-info/top_level.txt
+[0.815s] reading manifest file '../build/irc_ros_dashboard/irc_ros_dashboard.egg-info/SOURCES.txt'
+[0.816s] writing manifest file '../build/irc_ros_dashboard/irc_ros_dashboard.egg-info/SOURCES.txt'
+[0.816s] running build
+[0.816s] running build_py
+[0.816s] copying irc_ros_dashboard/cli_dashboard.py -> /home/anand/Igus/Igus_ROS2/build/irc_ros_dashboard/build/lib/irc_ros_dashboard
+[0.816s] copying irc_ros_dashboard/__init__.py -> /home/anand/Igus/Igus_ROS2/build/irc_ros_dashboard/build/lib/irc_ros_dashboard
+[0.816s] running install
+[0.819s] running install_lib
+[0.828s] running install_data
+[0.828s] copying resource/irc_ros_dashboard -> /home/anand/Igus/Igus_ROS2/install/irc_ros_dashboard/share/ament_index/resource_index/packages
+[0.828s] copying package.xml -> /home/anand/Igus/Igus_ROS2/install/irc_ros_dashboard/share/irc_ros_dashboard
+[0.828s] running install_egg_info
+[0.838s] removing '/home/anand/Igus/Igus_ROS2/install/irc_ros_dashboard/lib/python3.10/site-packages/irc_ros_dashboard-0.1.0-py3.10.egg-info' (and everything under it)
+[0.838s] Copying ../build/irc_ros_dashboard/irc_ros_dashboard.egg-info to /home/anand/Igus/Igus_ROS2/install/irc_ros_dashboard/lib/python3.10/site-packages/irc_ros_dashboard-0.1.0-py3.10.egg-info
+[0.838s] running install_scripts
+[0.914s] Installing cli_dashboard script to /home/anand/Igus/Igus_ROS2/install/irc_ros_dashboard/lib/irc_ros_dashboard
+[0.914s] writing list of installed files to '/home/anand/Igus/Igus_ROS2/build/irc_ros_dashboard/install.log'
+[0.933s] Invoked command in '/home/anand/Igus/Igus_ROS2/irc_ros_dashboard' returned '0': CMAKE_PREFIX_PATH=/home/anand/Igus/Igus_ROS2/install/irc_ros_msgs:/home/anand/Igus/Igus_ROS2/install/irc_ros_navigation2:/home/anand/Igus/Igus_ROS2/install/irc_ros_controllers:/home/anand/Igus/Igus_ROS2/install/irc_ros_bringup:/home/anand/Igus/Igus_ROS2/install/irc_ros_hardware:/home/anand/Igus/Igus_ROS2/install/irc_ros_examples:/home/anand/Igus/Igus_ROS2/install/irc_ros_moveit_config:/home/anand/Igus/Igus_ROS2/install/irc_ros_description:/home/anand/rover_ws/install/rover_description:/home/anand/rebel_ws/install/myrobot_moveit_config:/home/anand/rebel_ws/install/igus_rebel_description LD_LIBRARY_PATH=/home/anand/Igus/Igus_ROS2/install/irc_ros_msgs/lib:/home/anand/Igus/Igus_ROS2/install/irc_ros_controllers/lib:/home/anand/Igus/Igus_ROS2/install/irc_ros_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/anand/Igus/Igus_ROS2/build/irc_ros_dashboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anand/Igus/Igus_ROS2/install/irc_ros_dashboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/irc_ros_dashboard build --build-base /home/anand/Igus/Igus_ROS2/build/irc_ros_dashboard/build install --record /home/anand/Igus/Igus_ROS2/build/irc_ros_dashboard/install.log --single-version-externally-managed install_data

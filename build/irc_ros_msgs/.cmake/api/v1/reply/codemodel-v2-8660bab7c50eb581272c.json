@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3a578a9cbfff0ef468fe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "irc_ros_msgs__py",
+					"jsonFile" : "directory-irc_ros_msgs__py-8d58b9f939cf2515e048.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/anand/Igus/Igus_ROS2/build/irc_ros_msgs/irc_ros_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "irc_ros_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_irc_ros_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_irc_ros_msgs_egg-53e933f80da8d0fb8e5d.json",
+					"name" : "ament_cmake_python_build_irc_ros_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_irc_ros_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_irc_ros_msgs-4c8f97222d72cc0f4f3a.json",
+					"name" : "ament_cmake_python_symlink_irc_ros_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "irc_ros_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-irc_ros_msgs-6045b9a0b431c4ceb8dd.json",
+					"name" : "irc_ros_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "irc_ros_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-irc_ros_msgs__cpp-44ac5c7ed1d3b556a000.json",
+					"name" : "irc_ros_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "irc_ros_msgs__py::@8bd25089fad507c3b3a6",
+					"jsonFile" : "target-irc_ros_msgs__py-f14b2671ea7c43ae16a8.json",
+					"name" : "irc_ros_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "irc_ros_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-irc_ros_msgs__rosidl_generator_c-b7da7fc716ac9daedc54.json",
+					"name" : "irc_ros_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "irc_ros_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-irc_ros_msgs__rosidl_generator_py-9d8e3b75ec203080615e.json",
+					"name" : "irc_ros_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "irc_ros_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-irc_ros_msgs__rosidl_typesupport_c-fd48015d2684713c371a.json",
+					"name" : "irc_ros_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "irc_ros_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-irc_ros_msgs__rosidl_typesupport_c__pyext-b595dccd671cd6197398.json",
+					"name" : "irc_ros_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "irc_ros_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-irc_ros_msgs__rosidl_typesupport_cpp-143d56d3e6224d827b20.json",
+					"name" : "irc_ros_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "irc_ros_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-irc_ros_msgs__rosidl_typesupport_fastrtps_c-b2d08ee152458465e861.json",
+					"name" : "irc_ros_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "irc_ros_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-irc_ros_msgs__rosidl_typesupport_fastrtps_c__pyext-d775715a184420fc225f.json",
+					"name" : "irc_ros_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "irc_ros_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-irc_ros_msgs__rosidl_typesupport_fastrtps_cpp-59a8842de008b2c26180.json",
+					"name" : "irc_ros_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "irc_ros_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-irc_ros_msgs__rosidl_typesupport_introspection_c-da15da51ea4b74712aeb.json",
+					"name" : "irc_ros_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "irc_ros_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-irc_ros_msgs__rosidl_typesupport_introspection_c__pyext-58e68ace45e8b028abcc.json",
+					"name" : "irc_ros_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "irc_ros_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-irc_ros_msgs__rosidl_typesupport_introspection_cpp-c3dc2d6ae76cebf79de4.json",
+					"name" : "irc_ros_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "irc_ros_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-irc_ros_msgs_uninstall-e25c93750531d25990ea.json",
+					"name" : "irc_ros_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6b41f76a0d25e877c945.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/anand/Igus/Igus_ROS2/build/irc_ros_msgs",
+		"source" : "/home/anand/Igus/Igus_ROS2/irc_ros_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

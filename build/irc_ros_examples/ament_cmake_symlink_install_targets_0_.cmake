@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/anand/Igus/Igus_ROS2/build/irc_ros_examples/pick_and_place" "/home/anand/Igus/Igus_ROS2/build/irc_ros_examples/pick_and_place_vacuum" "TARGETS" "pick_and_place" "pick_and_place_vacuum" "DESTINATION" "lib/irc_ros_examples")

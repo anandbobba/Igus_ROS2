@@ -1,0 +1,3 @@
+[console_scripts]
+position_teacher = testtube_sorting.position_teacher:main
+simple_pick_place = testtube_sorting.simple_pick_place:main

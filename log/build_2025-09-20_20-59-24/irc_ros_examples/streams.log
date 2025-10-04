@@ -1,0 +1,111 @@
+[0.290s] Invoking command in '/home/anand/Igus/Igus_ROS2/build/irc_ros_examples': CMAKE_PREFIX_PATH=/home/anand/Igus/Igus_ROS2/install/irc_ros_moveit_config:/home/anand/Igus/Igus_ROS2/install/irc_ros_msgs:/home/anand/Igus/Igus_ROS2/install/irc_ros_description:/home/anand/Igus/Igus_ROS2/install/irc_ros_navigation2:/home/anand/Igus/Igus_ROS2/install/irc_ros_controllers:/home/anand/Igus/Igus_ROS2/install/irc_ros_bringup:/home/anand/Igus/Igus_ROS2/install/irc_ros_hardware:/home/anand/Igus/Igus_ROS2/install/irc_ros_examples:/home/anand/rover_ws/install/rover_description:/home/anand/rebel_ws/install/myrobot_moveit_config:/home/anand/rebel_ws/install/igus_rebel_description:/home/anand/Igus/Igus_ROS2/install/testtube_sorting:/home/anand/Igus/Igus_ROS2/install/irc_ros_dashboard:/opt/ros/humble LD_LIBRARY_PATH=/home/anand/Igus/Igus_ROS2/install/irc_ros_msgs/lib:/home/anand/Igus/Igus_ROS2/install/irc_ros_controllers/lib:/home/anand/Igus/Igus_ROS2/install/irc_ros_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/anand/Igus/Igus_ROS2/irc_ros_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/anand/Igus/Igus_ROS2/install/irc_ros_examples
+[0.362s] -- The C compiler identification is GNU 11.4.0
+[0.441s] -- The CXX compiler identification is GNU 11.4.0
+[0.452s] -- Detecting C compiler ABI info
+[0.557s] -- Detecting C compiler ABI info - done
+[0.570s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.570s] -- Detecting C compile features
+[0.571s] -- Detecting C compile features - done
+[0.576s] -- Detecting CXX compiler ABI info
+[0.707s] -- Detecting CXX compiler ABI info - done
+[0.720s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.720s] -- Detecting CXX compile features
+[0.721s] -- Detecting CXX compile features - done
+[0.725s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.316s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.416s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.465s] -- Found irc_ros_msgs: 0.0.0 (/home/anand/Igus/Igus_ROS2/install/irc_ros_msgs/share/irc_ros_msgs/cmake)
+[1.526s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.534s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.546s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.563s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.587s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.684s] -- Found moveit_core: 2.5.9 (/opt/ros/humble/share/moveit_core/cmake)
+[1.935s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.014s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.080s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.087s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.218s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.254s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.314s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.328s] -- Found Threads: TRUE  
+[2.403s] -- Found rclcpp_lifecycle: 16.0.15 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.443s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.628s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.743s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.743s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.232s] -- Found moveit_ros_move_group: 2.5.9 (/opt/ros/humble/share/moveit_ros_move_group/cmake)
+[3.242s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[3.314s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[3.352s] -- Found moveit_ros_planning_interface: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[3.365s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[3.402s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[3.471s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[4.137s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.874s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.881s] -- Configured cppcheck include dirs: /home/anand/Igus/Igus_ROS2/irc_ros_examples/include;$<BUILD_INTERFACE:/home/anand/Igus/Igus_ROS2/irc_ros_examples/include>
+[4.881s] -- Configured cppcheck exclude dirs and/or files: 
+[4.887s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.900s] -- Added test 'lint_cmake' to check CMake code style
+[4.908s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.937s] -- Added test 'uncrustify' to check C / C++ code style
+[4.939s] -- Configured uncrustify additional arguments: 
+[4.950s] -- Added test 'xmllint' to check XML markup files
+[4.955s] -- Configuring done
+[5.391s] -- Generating done
+[5.501s] -- Build files have been written to: /home/anand/Igus/Igus_ROS2/build/irc_ros_examples
+[5.590s] Invoked command in '/home/anand/Igus/Igus_ROS2/build/irc_ros_examples' returned '0': CMAKE_PREFIX_PATH=/home/anand/Igus/Igus_ROS2/install/irc_ros_moveit_config:/home/anand/Igus/Igus_ROS2/install/irc_ros_msgs:/home/anand/Igus/Igus_ROS2/install/irc_ros_description:/home/anand/Igus/Igus_ROS2/install/irc_ros_navigation2:/home/anand/Igus/Igus_ROS2/install/irc_ros_controllers:/home/anand/Igus/Igus_ROS2/install/irc_ros_bringup:/home/anand/Igus/Igus_ROS2/install/irc_ros_hardware:/home/anand/Igus/Igus_ROS2/install/irc_ros_examples:/home/anand/rover_ws/install/rover_description:/home/anand/rebel_ws/install/myrobot_moveit_config:/home/anand/rebel_ws/install/igus_rebel_description:/home/anand/Igus/Igus_ROS2/install/testtube_sorting:/home/anand/Igus/Igus_ROS2/install/irc_ros_dashboard:/opt/ros/humble LD_LIBRARY_PATH=/home/anand/Igus/Igus_ROS2/install/irc_ros_msgs/lib:/home/anand/Igus/Igus_ROS2/install/irc_ros_controllers/lib:/home/anand/Igus/Igus_ROS2/install/irc_ros_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/anand/Igus/Igus_ROS2/irc_ros_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/anand/Igus/Igus_ROS2/install/irc_ros_examples
+[5.594s] Invoking command in '/home/anand/Igus/Igus_ROS2/build/irc_ros_examples': CMAKE_PREFIX_PATH=/home/anand/Igus/Igus_ROS2/install/irc_ros_moveit_config:/home/anand/Igus/Igus_ROS2/install/irc_ros_msgs:/home/anand/Igus/Igus_ROS2/install/irc_ros_description:/home/anand/Igus/Igus_ROS2/install/irc_ros_navigation2:/home/anand/Igus/Igus_ROS2/install/irc_ros_controllers:/home/anand/Igus/Igus_ROS2/install/irc_ros_bringup:/home/anand/Igus/Igus_ROS2/install/irc_ros_hardware:/home/anand/Igus/Igus_ROS2/install/irc_ros_examples:/home/anand/rover_ws/install/rover_description:/home/anand/rebel_ws/install/myrobot_moveit_config:/home/anand/rebel_ws/install/igus_rebel_description:/home/anand/Igus/Igus_ROS2/install/testtube_sorting:/home/anand/Igus/Igus_ROS2/install/irc_ros_dashboard:/opt/ros/humble LD_LIBRARY_PATH=/home/anand/Igus/Igus_ROS2/install/irc_ros_msgs/lib:/home/anand/Igus/Igus_ROS2/install/irc_ros_controllers/lib:/home/anand/Igus/Igus_ROS2/install/irc_ros_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/anand/Igus/Igus_ROS2/build/irc_ros_examples -- -j16 -l16
+[5.701s] [ 25%] [32mBuilding CXX object CMakeFiles/pick_and_place_vacuum.dir/src/pick_and_place_vacuum.cpp.o[0m
+[5.710s] [ 25%] Built target ament_cmake_python_symlink_irc_ros_examples
+[5.722s] [ 50%] [32mBuilding CXX object CMakeFiles/pick_and_place.dir/src/pick_and_place.cpp.o[0m
+[6.291s] running egg_info
+[6.334s] creating irc_ros_examples.egg-info
+[6.335s] writing irc_ros_examples.egg-info/PKG-INFO
+[6.335s] writing dependency_links to irc_ros_examples.egg-info/dependency_links.txt
+[6.335s] writing top-level names to irc_ros_examples.egg-info/top_level.txt
+[6.335s] writing manifest file 'irc_ros_examples.egg-info/SOURCES.txt'
+[6.474s] reading manifest file 'irc_ros_examples.egg-info/SOURCES.txt'
+[6.477s] writing manifest file 'irc_ros_examples.egg-info/SOURCES.txt'
+[6.546s] [ 50%] Built target ament_cmake_python_build_irc_ros_examples_egg
+[20.856s] [ 75%] [32m[1mLinking CXX executable pick_and_place_vacuum[0m
+[21.424s] [ 75%] Built target pick_and_place_vacuum
+[37.690s] [100%] [32m[1mLinking CXX executable pick_and_place[0m
+[38.604s] [100%] Built target pick_and_place
+[38.619s] Invoked command in '/home/anand/Igus/Igus_ROS2/build/irc_ros_examples' returned '0': CMAKE_PREFIX_PATH=/home/anand/Igus/Igus_ROS2/install/irc_ros_moveit_config:/home/anand/Igus/Igus_ROS2/install/irc_ros_msgs:/home/anand/Igus/Igus_ROS2/install/irc_ros_description:/home/anand/Igus/Igus_ROS2/install/irc_ros_navigation2:/home/anand/Igus/Igus_ROS2/install/irc_ros_controllers:/home/anand/Igus/Igus_ROS2/install/irc_ros_bringup:/home/anand/Igus/Igus_ROS2/install/irc_ros_hardware:/home/anand/Igus/Igus_ROS2/install/irc_ros_examples:/home/anand/rover_ws/install/rover_description:/home/anand/rebel_ws/install/myrobot_moveit_config:/home/anand/rebel_ws/install/igus_rebel_description:/home/anand/Igus/Igus_ROS2/install/testtube_sorting:/home/anand/Igus/Igus_ROS2/install/irc_ros_dashboard:/opt/ros/humble LD_LIBRARY_PATH=/home/anand/Igus/Igus_ROS2/install/irc_ros_msgs/lib:/home/anand/Igus/Igus_ROS2/install/irc_ros_controllers/lib:/home/anand/Igus/Igus_ROS2/install/irc_ros_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/anand/Igus/Igus_ROS2/build/irc_ros_examples -- -j16 -l16
+[38.620s] Invoking command in '/home/anand/Igus/Igus_ROS2/build/irc_ros_examples': CMAKE_PREFIX_PATH=/home/anand/Igus/Igus_ROS2/install/irc_ros_moveit_config:/home/anand/Igus/Igus_ROS2/install/irc_ros_msgs:/home/anand/Igus/Igus_ROS2/install/irc_ros_description:/home/anand/Igus/Igus_ROS2/install/irc_ros_navigation2:/home/anand/Igus/Igus_ROS2/install/irc_ros_controllers:/home/anand/Igus/Igus_ROS2/install/irc_ros_bringup:/home/anand/Igus/Igus_ROS2/install/irc_ros_hardware:/home/anand/Igus/Igus_ROS2/install/irc_ros_examples:/home/anand/rover_ws/install/rover_description:/home/anand/rebel_ws/install/myrobot_moveit_config:/home/anand/rebel_ws/install/igus_rebel_description:/home/anand/Igus/Igus_ROS2/install/testtube_sorting:/home/anand/Igus/Igus_ROS2/install/irc_ros_dashboard:/opt/ros/humble LD_LIBRARY_PATH=/home/anand/Igus/Igus_ROS2/install/irc_ros_msgs/lib:/home/anand/Igus/Igus_ROS2/install/irc_ros_controllers/lib:/home/anand/Igus/Igus_ROS2/install/irc_ros_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/anand/Igus/Igus_ROS2/build/irc_ros_examples
+[38.630s] -- Install configuration: ""
+[38.631s] -- Execute custom install script
+[38.631s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/lib/irc_ros_examples/pick_and_place
+[38.644s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/lib/irc_ros_examples/pick_and_place_vacuum
+[38.656s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/environment/pythonpath.sh
+[38.666s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/environment/pythonpath.dsv
+[38.677s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/local/lib/python3.10/dist-packages/irc_ros_examples-0.1.0-py3.10.egg-info/PKG-INFO
+[38.689s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/local/lib/python3.10/dist-packages/irc_ros_examples-0.1.0-py3.10.egg-info/SOURCES.txt
+[38.701s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/local/lib/python3.10/dist-packages/irc_ros_examples-0.1.0-py3.10.egg-info/dependency_links.txt
+[38.713s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/local/lib/python3.10/dist-packages/irc_ros_examples-0.1.0-py3.10.egg-info/top_level.txt
+[38.723s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/local/lib/python3.10/dist-packages/irc_ros_examples/__init__.py
+[38.734s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/lib/irc_ros_examples/nav2_simple_commander_example.py
+[38.744s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/lib/irc_ros_examples/baristabot.py
+[38.757s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/launch/baristabot.launch.py
+[38.770s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/launch/nav2_simple_commander_example.launch.py
+[38.782s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/launch/pick_and_place.launch.py
+[38.792s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/launch/pick_and_place_vacuum.launch.py
+[38.804s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/ament_index/resource_index/package_run_dependencies/irc_ros_examples
+[38.816s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/ament_index/resource_index/parent_prefix_path/irc_ros_examples
+[38.827s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/environment/ament_prefix_path.sh
+[38.839s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/environment/ament_prefix_path.dsv
+[38.851s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/environment/path.sh
+[38.861s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/environment/path.dsv
+[38.871s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/local_setup.bash
+[38.882s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/local_setup.sh
+[38.893s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/local_setup.zsh
+[38.904s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/local_setup.dsv
+[38.916s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/package.dsv
+[38.927s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/ament_index/resource_index/packages/irc_ros_examples
+[38.938s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/cmake/irc_ros_examplesConfig.cmake
+[38.949s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/cmake/irc_ros_examplesConfig-version.cmake
+[38.961s] -- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/package.xml
+[39.011s] Listing '/home/anand/Igus/Igus_ROS2/install/irc_ros_examples/local/lib/python3.10/dist-packages/irc_ros_examples'...
+[39.011s] Compiling '/home/anand/Igus/Igus_ROS2/install/irc_ros_examples/local/lib/python3.10/dist-packages/irc_ros_examples/__init__.py'...
+[39.020s] Invoked command in '/home/anand/Igus/Igus_ROS2/build/irc_ros_examples' returned '0': CMAKE_PREFIX_PATH=/home/anand/Igus/Igus_ROS2/install/irc_ros_moveit_config:/home/anand/Igus/Igus_ROS2/install/irc_ros_msgs:/home/anand/Igus/Igus_ROS2/install/irc_ros_description:/home/anand/Igus/Igus_ROS2/install/irc_ros_navigation2:/home/anand/Igus/Igus_ROS2/install/irc_ros_controllers:/home/anand/Igus/Igus_ROS2/install/irc_ros_bringup:/home/anand/Igus/Igus_ROS2/install/irc_ros_hardware:/home/anand/Igus/Igus_ROS2/install/irc_ros_examples:/home/anand/rover_ws/install/rover_description:/home/anand/rebel_ws/install/myrobot_moveit_config:/home/anand/rebel_ws/install/igus_rebel_description:/home/anand/Igus/Igus_ROS2/install/testtube_sorting:/home/anand/Igus/Igus_ROS2/install/irc_ros_dashboard:/opt/ros/humble LD_LIBRARY_PATH=/home/anand/Igus/Igus_ROS2/install/irc_ros_msgs/lib:/home/anand/Igus/Igus_ROS2/install/irc_ros_controllers/lib:/home/anand/Igus/Igus_ROS2/install/irc_ros_hardware/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/anand/Igus/Igus_ROS2/build/irc_ros_examples

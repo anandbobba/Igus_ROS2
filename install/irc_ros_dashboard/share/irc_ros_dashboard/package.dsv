@@ -1,0 +1,6 @@
+source;share/irc_ros_dashboard/hook/pythonpath.ps1
+source;share/irc_ros_dashboard/hook/pythonpath.dsv
+source;share/irc_ros_dashboard/hook/pythonpath.sh
+source;share/irc_ros_dashboard/hook/ament_prefix_path.ps1
+source;share/irc_ros_dashboard/hook/ament_prefix_path.dsv
+source;share/irc_ros_dashboard/hook/ament_prefix_path.sh

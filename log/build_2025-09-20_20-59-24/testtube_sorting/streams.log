@@ -1,0 +1,27 @@
+[1.128s] Invoking command in '/home/anand/Igus/Igus_ROS2/build/testtube_sorting': PYTHONPATH=/home/anand/Igus/Igus_ROS2/build/testtube_sorting/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anand/Igus/Igus_ROS2/install/testtube_sorting/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/anand/Igus/Igus_ROS2/build/testtube_sorting/build --no-deps symlink_data
+[1.365s] /home/anand/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[1.365s]   warnings.warn(msg)
+[1.698s] running develop
+[2.150s] running egg_info
+[2.171s] creating testtube_sorting.egg-info
+[2.171s] writing testtube_sorting.egg-info/PKG-INFO
+[2.171s] writing dependency_links to testtube_sorting.egg-info/dependency_links.txt
+[2.172s] writing entry points to testtube_sorting.egg-info/entry_points.txt
+[2.172s] writing requirements to testtube_sorting.egg-info/requires.txt
+[2.172s] writing top-level names to testtube_sorting.egg-info/top_level.txt
+[2.172s] writing manifest file 'testtube_sorting.egg-info/SOURCES.txt'
+[2.212s] reading manifest file 'testtube_sorting.egg-info/SOURCES.txt'
+[2.213s] writing manifest file 'testtube_sorting.egg-info/SOURCES.txt'
+[2.233s] running build_ext
+[2.233s] Creating /home/anand/Igus/Igus_ROS2/install/testtube_sorting/lib/python3.10/site-packages/testtube-sorting.egg-link (link to .)
+[2.234s] Installing position_teacher script to /home/anand/Igus/Igus_ROS2/install/testtube_sorting/lib/testtube_sorting
+[2.235s] Installing simple_pick_place script to /home/anand/Igus/Igus_ROS2/install/testtube_sorting/lib/testtube_sorting
+[2.236s] 
+[2.236s] Installed /home/anand/Igus/Igus_ROS2/build/testtube_sorting
+[2.236s] running symlink_data
+[2.236s] creating /home/anand/Igus/Igus_ROS2/install/testtube_sorting/share/ament_index/resource_index/packages
+[2.237s] symbolically linking /home/anand/Igus/Igus_ROS2/build/testtube_sorting/resource/testtube_sorting -> /home/anand/Igus/Igus_ROS2/install/testtube_sorting/share/ament_index/resource_index/packages
+[2.237s] symbolically linking /home/anand/Igus/Igus_ROS2/build/testtube_sorting/package.xml -> /home/anand/Igus/Igus_ROS2/install/testtube_sorting/share/testtube_sorting
+[2.238s] creating /home/anand/Igus/Igus_ROS2/install/testtube_sorting/share/testtube_sorting/launch
+[2.238s] symbolically linking /home/anand/Igus/Igus_ROS2/build/testtube_sorting/launch/teach_positions.launch.py -> /home/anand/Igus/Igus_ROS2/install/testtube_sorting/share/testtube_sorting/launch
+[2.288s] Invoked command in '/home/anand/Igus/Igus_ROS2/build/testtube_sorting' returned '0': PYTHONPATH=/home/anand/Igus/Igus_ROS2/build/testtube_sorting/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anand/Igus/Igus_ROS2/install/testtube_sorting/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/anand/Igus/Igus_ROS2/build/testtube_sorting/build --no-deps symlink_data

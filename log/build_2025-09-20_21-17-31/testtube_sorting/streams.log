@@ -1,0 +1,28 @@
+[0.603s] Invoking command in '/home/anand/Igus/Igus_ROS2/src/testtube_sorting': PYTHONPATH=/home/anand/Igus/Igus_ROS2/build/testtube_sorting/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anand/Igus/Igus_ROS2/install/testtube_sorting/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/testtube_sorting build --build-base /home/anand/Igus/Igus_ROS2/build/testtube_sorting/build install --record /home/anand/Igus/Igus_ROS2/build/testtube_sorting/install.log --single-version-externally-managed install_data
+[0.738s] /home/anand/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.738s]   warnings.warn(msg)
+[0.802s] running egg_info
+[0.811s] writing ../../build/testtube_sorting/testtube_sorting.egg-info/PKG-INFO
+[0.811s] writing dependency_links to ../../build/testtube_sorting/testtube_sorting.egg-info/dependency_links.txt
+[0.812s] writing entry points to ../../build/testtube_sorting/testtube_sorting.egg-info/entry_points.txt
+[0.812s] writing requirements to ../../build/testtube_sorting/testtube_sorting.egg-info/requires.txt
+[0.812s] writing top-level names to ../../build/testtube_sorting/testtube_sorting.egg-info/top_level.txt
+[0.832s] reading manifest file '../../build/testtube_sorting/testtube_sorting.egg-info/SOURCES.txt'
+[0.833s] writing manifest file '../../build/testtube_sorting/testtube_sorting.egg-info/SOURCES.txt'
+[0.833s] running build
+[0.834s] running build_py
+[0.834s] copying testtube_sorting/__init__.py -> /home/anand/Igus/Igus_ROS2/build/testtube_sorting/build/lib/testtube_sorting
+[0.834s] running install
+[0.837s] running install_lib
+[0.847s] running install_data
+[0.847s] copying resource/testtube_sorting -> /home/anand/Igus/Igus_ROS2/install/testtube_sorting/share/ament_index/resource_index/packages
+[0.847s] copying package.xml -> /home/anand/Igus/Igus_ROS2/install/testtube_sorting/share/testtube_sorting
+[0.847s] copying launch/teach_positions.launch.py -> /home/anand/Igus/Igus_ROS2/install/testtube_sorting/share/testtube_sorting/launch
+[0.847s] running install_egg_info
+[0.857s] removing '/home/anand/Igus/Igus_ROS2/install/testtube_sorting/lib/python3.10/site-packages/testtube_sorting-0.0.0-py3.10.egg-info' (and everything under it)
+[0.858s] Copying ../../build/testtube_sorting/testtube_sorting.egg-info to /home/anand/Igus/Igus_ROS2/install/testtube_sorting/lib/python3.10/site-packages/testtube_sorting-0.0.0-py3.10.egg-info
+[0.858s] running install_scripts
+[0.944s] Installing position_teacher script to /home/anand/Igus/Igus_ROS2/install/testtube_sorting/lib/testtube_sorting
+[0.944s] Installing simple_pick_place script to /home/anand/Igus/Igus_ROS2/install/testtube_sorting/lib/testtube_sorting
+[0.944s] writing list of installed files to '/home/anand/Igus/Igus_ROS2/build/testtube_sorting/install.log'
+[0.968s] Invoked command in '/home/anand/Igus/Igus_ROS2/src/testtube_sorting' returned '0': PYTHONPATH=/home/anand/Igus/Igus_ROS2/build/testtube_sorting/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anand/Igus/Igus_ROS2/install/testtube_sorting/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/testtube_sorting build --build-base /home/anand/Igus/Igus_ROS2/build/testtube_sorting/build install --record /home/anand/Igus/Igus_ROS2/build/testtube_sorting/install.log --single-version-externally-managed install_data

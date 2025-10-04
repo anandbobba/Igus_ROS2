@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/testtube_sorting/testtube_sorting.egg-info/PKG-INFO
+writing dependency_links to ../../build/testtube_sorting/testtube_sorting.egg-info/dependency_links.txt
+writing entry points to ../../build/testtube_sorting/testtube_sorting.egg-info/entry_points.txt
+writing requirements to ../../build/testtube_sorting/testtube_sorting.egg-info/requires.txt
+writing top-level names to ../../build/testtube_sorting/testtube_sorting.egg-info/top_level.txt
+reading manifest file '../../build/testtube_sorting/testtube_sorting.egg-info/SOURCES.txt'
+writing manifest file '../../build/testtube_sorting/testtube_sorting.egg-info/SOURCES.txt'
+running build
+running build_py
+copying testtube_sorting/__init__.py -> /home/anand/Igus/Igus_ROS2/build/testtube_sorting/build/lib/testtube_sorting
+running install
+running install_lib
+running install_data
+copying resource/testtube_sorting -> /home/anand/Igus/Igus_ROS2/install/testtube_sorting/share/ament_index/resource_index/packages
+copying package.xml -> /home/anand/Igus/Igus_ROS2/install/testtube_sorting/share/testtube_sorting
+copying launch/teach_positions.launch.py -> /home/anand/Igus/Igus_ROS2/install/testtube_sorting/share/testtube_sorting/launch
+running install_egg_info
+removing '/home/anand/Igus/Igus_ROS2/install/testtube_sorting/lib/python3.10/site-packages/testtube_sorting-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/testtube_sorting/testtube_sorting.egg-info to /home/anand/Igus/Igus_ROS2/install/testtube_sorting/lib/python3.10/site-packages/testtube_sorting-0.0.0-py3.10.egg-info
+running install_scripts
+Installing position_teacher script to /home/anand/Igus/Igus_ROS2/install/testtube_sorting/lib/testtube_sorting
+Installing simple_pick_place script to /home/anand/Igus/Igus_ROS2/install/testtube_sorting/lib/testtube_sorting
+writing list of installed files to '/home/anand/Igus/Igus_ROS2/build/testtube_sorting/install.log'

@@ -1,0 +1,16 @@
+{
+  "package_name": "irc_ros_msgs",
+  "non_idl_tuples": [
+    "/home/anand/Igus/Igus_ROS2/irc_ros_msgs:msg/CanModuleCommand.msg",
+    "/home/anand/Igus/Igus_ROS2/irc_ros_msgs:msg/CanModuleState.msg",
+    "/home/anand/Igus/Igus_ROS2/irc_ros_msgs:msg/CanModuleStates.msg",
+    "/home/anand/Igus/Igus_ROS2/irc_ros_msgs:msg/DioCommand.msg",
+    "/home/anand/Igus/Igus_ROS2/irc_ros_msgs:msg/DioState.msg",
+    "/home/anand/Igus/Igus_ROS2/irc_ros_msgs:msg/DioStates.msg",
+    "/home/anand/Igus/Igus_ROS2/irc_ros_msgs:msg/GripperCommand.msg",
+    "/home/anand/Igus/Igus_ROS2/irc_ros_msgs:msg/GripperState.msg",
+    "/home/anand/Igus/Igus_ROS2/irc_ros_msgs:srv/CanModuleCommand.srv",
+    "/home/anand/Igus/Igus_ROS2/irc_ros_msgs:srv/DioCommand.srv",
+    "/home/anand/Igus/Igus_ROS2/irc_ros_msgs:srv/GripperCommand.srv"
+  ]
+}

@@ -1,0 +1,43 @@
+[  0%] Built target ament_cmake_python_symlink_irc_ros_examples
+[ 50%] Built target pick_and_place_vacuum
+[100%] Built target pick_and_place
+running egg_info
+writing irc_ros_examples.egg-info/PKG-INFO
+writing dependency_links to irc_ros_examples.egg-info/dependency_links.txt
+writing top-level names to irc_ros_examples.egg-info/top_level.txt
+reading manifest file 'irc_ros_examples.egg-info/SOURCES.txt'
+writing manifest file 'irc_ros_examples.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_irc_ros_examples_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/lib/irc_ros_examples/pick_and_place
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/lib/irc_ros_examples/pick_and_place_vacuum
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/environment/pythonpath.sh
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/local/lib/python3.10/dist-packages/irc_ros_examples-0.1.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/local/lib/python3.10/dist-packages/irc_ros_examples-0.1.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/local/lib/python3.10/dist-packages/irc_ros_examples-0.1.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/local/lib/python3.10/dist-packages/irc_ros_examples-0.1.0-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/local/lib/python3.10/dist-packages/irc_ros_examples/__init__.py
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/lib/irc_ros_examples/nav2_simple_commander_example.py
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/lib/irc_ros_examples/baristabot.py
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/launch/baristabot.launch.py
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/launch/nav2_simple_commander_example.launch.py
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/launch/pick_and_place.launch.py
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/launch/pick_and_place_vacuum.launch.py
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/ament_index/resource_index/package_run_dependencies/irc_ros_examples
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/ament_index/resource_index/parent_prefix_path/irc_ros_examples
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/environment/path.sh
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/environment/path.dsv
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/local_setup.bash
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/local_setup.sh
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/local_setup.zsh
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/local_setup.dsv
+-- Symlinking: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/package.dsv
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/ament_index/resource_index/packages/irc_ros_examples
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/cmake/irc_ros_examplesConfig.cmake
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/cmake/irc_ros_examplesConfig-version.cmake
+-- Up-to-date symlink: /home/anand/Igus/Igus_ROS2/install/irc_ros_examples/share/irc_ros_examples/package.xml
+Listing '/home/anand/Igus/Igus_ROS2/install/irc_ros_examples/local/lib/python3.10/dist-packages/irc_ros_examples'...

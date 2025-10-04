@@ -1,0 +1,1 @@
+/home/anand/Igus/Igus_ROS2/irc_ros_examples/scripts/nav2_simple_commander_example.py

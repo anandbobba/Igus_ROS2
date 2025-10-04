@@ -1,0 +1,25 @@
+/home/anand/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running develop
+running egg_info
+creating testtube_sorting.egg-info
+writing testtube_sorting.egg-info/PKG-INFO
+writing dependency_links to testtube_sorting.egg-info/dependency_links.txt
+writing entry points to testtube_sorting.egg-info/entry_points.txt
+writing requirements to testtube_sorting.egg-info/requires.txt
+writing top-level names to testtube_sorting.egg-info/top_level.txt
+writing manifest file 'testtube_sorting.egg-info/SOURCES.txt'
+reading manifest file 'testtube_sorting.egg-info/SOURCES.txt'
+writing manifest file 'testtube_sorting.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/anand/Igus/Igus_ROS2/install/testtube_sorting/lib/python3.10/site-packages/testtube-sorting.egg-link (link to .)
+Installing position_teacher script to /home/anand/Igus/Igus_ROS2/install/testtube_sorting/lib/testtube_sorting
+Installing simple_pick_place script to /home/anand/Igus/Igus_ROS2/install/testtube_sorting/lib/testtube_sorting
+
+Installed /home/anand/Igus/Igus_ROS2/build/testtube_sorting
+running symlink_data
+creating /home/anand/Igus/Igus_ROS2/install/testtube_sorting/share/ament_index/resource_index/packages
+symbolically linking /home/anand/Igus/Igus_ROS2/build/testtube_sorting/resource/testtube_sorting -> /home/anand/Igus/Igus_ROS2/install/testtube_sorting/share/ament_index/resource_index/packages
+symbolically linking /home/anand/Igus/Igus_ROS2/build/testtube_sorting/package.xml -> /home/anand/Igus/Igus_ROS2/install/testtube_sorting/share/testtube_sorting
+creating /home/anand/Igus/Igus_ROS2/install/testtube_sorting/share/testtube_sorting/launch
+symbolically linking /home/anand/Igus/Igus_ROS2/build/testtube_sorting/launch/teach_positions.launch.py -> /home/anand/Igus/Igus_ROS2/install/testtube_sorting/share/testtube_sorting/launch
